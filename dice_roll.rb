@@ -4,4 +4,10 @@
 
 def roll
   # code goes here
+  rand(1..6)
+end
+
+def roll_arr
+  arr = [1, 2, 3, 4, 5, 6]
+  arr.sample
 end
